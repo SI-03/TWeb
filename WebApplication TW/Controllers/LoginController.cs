@@ -58,7 +58,7 @@ namespace WebApplication_TW.Controllers
             if (ModelState.IsValid)
             {
                 var data = Mapper.Map<ULoginDate>(login);
-
+                
                 data.LoginIp = Request.UserHostAddress;
                 data.LoginDateTime = DateTime.Now;
 
@@ -76,7 +76,7 @@ namespace WebApplication_TW.Controllers
                     ModelState.AddModelError("", userLogin.StatusMsg);
                     return View();
                 }
-
+                  
             }
             return View();
         }
