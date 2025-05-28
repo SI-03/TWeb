@@ -3,20 +3,11 @@ using WebApplication_TW.BusinessLogic.Interfaces;
 using WebApplication_TW.Domain.Entities.User;
 using WebApplication_TW.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using AutoMapper;
-using System.Data.SqlClient;
-using System.Data.Entity;
-using WebApplication_TW.BusinessLogic.Core;
 using System.Web.Security;
-using System.Data;
-using System.Security.Cryptography;
-using Microsoft.Win32;
-using System.ComponentModel.DataAnnotations;
-using WebApplication_TW.Models;
+using FinalWebTODO.BusinessLogic;
 
 
 namespace WebApplication_TW.Controllers
@@ -27,7 +18,7 @@ namespace WebApplication_TW.Controllers
         private readonly ISession _session;
         public LoginController()
         {
-            var bl = new BussinesLogic();
+            var bl = new BussinessLogic();
             _session = bl.GetSessionBl();
         }
         // GET: Login

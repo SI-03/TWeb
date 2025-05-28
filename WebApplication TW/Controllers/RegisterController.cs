@@ -1,5 +1,4 @@
-using WebApplication_TW.BusinessLogic;
-using WebApplication_TW.BusinessLogic.Interfaces;
+﻿using WebApplication_TW.BusinessLogic.Interfaces;
 using WebApplication_TW.Models;
 using System;
 using System.Collections.Generic;
@@ -9,6 +8,7 @@ using System.Web.Mvc;
 using AutoMapper;
 using WebApplication_TW.Domain.Entities.User;
 using System.Web.Security;
+using FinalWebTODO.BusinessLogic;
 
 namespace WebApplication_TW.Controllers
 {
@@ -17,7 +17,7 @@ namespace WebApplication_TW.Controllers
         internal readonly ISession _session;
         public RegisterController()
         {
-            var bl = new BussinesLogic();
+            var bl = new BussinessLogic();
             _session = bl.GetSessionBl();
         }
         // GET: Register

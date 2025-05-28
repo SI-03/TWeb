@@ -1,5 +1,4 @@
-using WebApplication_TW.AdminAttribute;
-using WebApplication_TW.BusinessLogic;
+﻿using WebApplication_TW.AdminAttribute;
 using WebApplication_TW.Domain.Entities.User;
 using System;
 using System.Collections.Generic;
@@ -7,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using WebApplication_TW.BusinessLogic.Interfaces;
+using FinalWebTODO.BusinessLogic;
 
 namespace WebApplication_TW.Controllers
 {
@@ -16,7 +16,7 @@ namespace WebApplication_TW.Controllers
 
         public AdminController()
         {
-            var bl = new BussinesLogic();
+            var bl = new BussinessLogic();
             _session = bl.GetAdminSessionBL();
         }
 

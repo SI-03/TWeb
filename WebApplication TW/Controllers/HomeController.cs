@@ -11,6 +11,7 @@ using AutoMapper;
 using WebApplication_TW.BusinessLogic;
 using System.Web.UI.WebControls;
 using WebApplication_TW.AdminAttribute;
+using FinalWebTODO.BusinessLogic;
 
 namespace WebApplication_TW.Controllers
 {
@@ -64,7 +65,7 @@ namespace WebApplication_TW.Controllers
         private  readonly ISession _session;
         public HomeController()
         {
-            var bl = new BussinesLogic();
+            var bl = new BussinessLogic();
             _session = bl.GetSessionBl();
         }
 

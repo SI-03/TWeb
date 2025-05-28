@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WebApplication_TW.Domain.Core;
 
 namespace WebApplication_TW.BusinessLogic.Core
 {

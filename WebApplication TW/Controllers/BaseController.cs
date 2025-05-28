@@ -1,4 +1,4 @@
-using WebApplication_TW.BusinessLogic;
+﻿using WebApplication_TW.BusinessLogic;
 using WebApplication_TW.BusinessLogic.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using WebApplication_TW.Extension;
+using FinalWebTODO.BusinessLogic;
 
 namespace WebApplication_TW.Controllers
 {
@@ -15,7 +16,7 @@ namespace WebApplication_TW.Controllers
 
         public BaseController()
         {
-            var bl = new BussinesLogic();
+            var bl = new BussinessLogic();
             _session = bl.GetSessionBl();
         }
 

@@ -1,5 +1,4 @@
 ﻿using WebApplication_TW.Domain.Entities.User;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;

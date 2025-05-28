@@ -1,4 +1,4 @@
-﻿using WebApplication_TW.Entities.User;
+﻿using WebApplication_TW.Domain.Entities.User;
 using WebApplication_TW.Domain.Enums;
 using System;
 using System.Collections.Generic;

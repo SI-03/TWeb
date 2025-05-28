@@ -4,16 +4,17 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using WebApplication_TW.BusinessLogic.DBModels;
 using WebApplication_TW.Domain.Entities.User;
 using WebApplication_TW.Domain.Enums;
 using WebApplication_TW;
 using System.Data.Entity;
 using AutoMapper;
-using System.Web;
 using eUseControl.Helpers;
-using RestSharp;
-using System.Web.UI.WebControls;
+
+//using RestSharp;
+//using System.Web.UI.WebControls;
 using System.Net;
 
 namespace WebApplication_TW.BusinessLogic.Core
