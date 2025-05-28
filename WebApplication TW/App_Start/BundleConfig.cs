@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿using System;
+=======
+using System;
+>>>>>>> 465bfa57132556fe692092c25d8ce6259477c98f
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,6 +13,7 @@ namespace WebApplication_TW.App_Start
     public class BundleConfig
     {
         public static void RegisterBundles(BundleCollection bundles)
+
         {
 
 
